@@ -1,0 +1,67 @@
+.logincon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(200, 210, 219);
+}
+.inputtext {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #475568;
+}
+.label {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: gray;
+  margin-top: 8px;
+  align-self: flex-start;
+}
+.sp {
+  padding-top: 10px;
+  padding-left: 0;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: gray;
+}
+.show-password-con {
+  display: flex;
+  margin-top: 10px;
+}
+.check {
+  height: 30px;
+  width: 80px;
+  margin: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btn {
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+}
+
+.err-msg {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}

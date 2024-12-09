@@ -1,0 +1,68 @@
+.todo-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.title-and-button-con {
+  display: flex;
+}
+.todo-text {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: black;
+}
+.description {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: dimgray;
+}
+.save-button {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  margin-right: 8px;
+  margin-left: 20px;
+}
+.edit-button {
+  background-color: rgb(168, 174, 187);
+  color: rgb(40, 61, 196);
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  margin-right: 8px;
+  margin-left: 20px;
+}
+.delete-button {
+  margin-right: 8px;
+  background-color: rgb(205, 181, 138);
+  color: rgb(184, 39, 39);
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+}
+.buttons-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.edit-title {
+  font-size: 18px;
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid gray;
+}
